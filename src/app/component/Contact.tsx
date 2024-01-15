@@ -10,21 +10,21 @@ const Contact = () => {
             <span className="bg-[#878787] p-1 text-sm text-white  rounded-md">
               Exploring Unique Homes in the Real Estate Market
             </span>
-            <h2 className=" md:text-4xl text-2xl font-bold text-black mt-6">
-              Looking To Buy A Property?
+            <h2 className="md:text-4xl text-2xl font-bold text-black mt-6">
+              Looking To Design Your Dream Home?
             </h2>
           </div>
 
           <div className="flex lg:flex-row flex-col items-center gap-4">
             <div className="inline-flex items-center gap-1 md:text-3xl text-xl">
               <FaPhoneAlt color="#052087" />
-              <h1 className=" md:text-2xl text-sm font-medium text-black ">
+              <h1 className="md:text-2xl text-sm font-medium text-black ">
                 +2348035420101
               </h1>
             </div>
 
             <button className="text-white text-sm font-medium bg-[#052087] hover:bg-[#304288] p-4 rounded-full">
-              Find Premium Property
+              Explore Design Options
             </button>
           </div>
         </div>

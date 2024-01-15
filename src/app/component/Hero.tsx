@@ -15,13 +15,13 @@ const Hero = () => {
     >
       <div className="container flex flex-col md:items-start items-center mx-auto md:px-10 px-10">
         <h2 className="font-Montserrat relative flex items-center md:text-left text-center font-bold text-primary text-2xl md:text-[56px] md:leading-[63px] leading-[40px]">
-          Discover Your Dream Home
+          Designing Your Dream Space
         </h2>
         <h2 className="font-Montserrat font-normal md:text-base text-xs md:text-left text-center  text-[#d6d6d6]  mt-5 max-w-[600px]">
-          Explore our real estate listings and find the perfect home that suits
-          your lifestyle. Whether you{"'"}re looking for a cozy apartment in the
-          city or a spacious house in the suburbs, we have a wide range of
-          properties to choose from.
+          Explore our architectural masterpieces and find the perfect design
+          that reflects your lifestyle. Whether you're seeking a modern urban
+          dwelling or a tranquil suburban retreat, we offer a diverse range of
+          designs to inspire your vision.
         </h2>
         <button className="bg-[#fff] px-10 py-3 rounded-md text-[#052087] font-extrabold font-Montserrat text-lg mt-10">
           Contact Us

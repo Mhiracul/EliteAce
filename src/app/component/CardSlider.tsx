@@ -44,7 +44,7 @@ const CardSlider: React.FC = () => {
   return (
     <div id="testimonial" className="bg-[#f6f6f6]">
       <div className="py-16 ">
-        <div className="  py-16">
+        <div className="px-10  py-16">
           <Slider {...settings}>
             {cardsData.map((cards) => (
               <div key={cards.id} className="px-2">

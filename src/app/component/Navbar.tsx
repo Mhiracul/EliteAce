@@ -55,34 +55,6 @@ function Navbar() {
                   >
                     About Us
                   </Link>
-
-                  <div className="relative inline-block">
-                    <span
-                      className="text-black font-Montserrat text-[12px] cursor-pointer"
-                      onClick={handleDropdownToggle}
-                    >
-                      Categories
-                    </span>
-                    {dropdownOpen && (
-                      <div className="absolute top-full left-0 mt-2 py-2 w-[150px] bg-[#C82C2F] rounded-md z-40">
-                        <a
-                          href="/category1"
-                          className="block px-4 py-2 text-white font-Montserrat text-[12px]"
-                          onClick={handleDropdownLinkClick}
-                        >
-                          Real Estate
-                        </a>
-                        <a
-                          href="/category2"
-                          className="block px-4 py-2 text-white font-Montserrat text-[12px]"
-                          onClick={handleDropdownLinkClick}
-                        >
-                          Category 2
-                        </a>
-                        {/* Add more categories as needed */}
-                      </div>
-                    )}
-                  </div>
                 </div>
               </div>
             </div>
@@ -102,65 +74,6 @@ function Navbar() {
           >
             About Us
           </Link>
-          <div className="relative inline-block">
-            <span
-              className="text-black font-medium hover:text-[#052087] font-Montserrat text-[12px] cursor-pointer"
-              onClick={handleDropdownToggle}
-            >
-              Categories
-            </span>
-            {dropdownOpen && (
-              <div className="absolute top-full left-0 mt-2 py-2 w-[220px] flex bg-[#C82C2F] rounded-md z-10">
-                <div className="mt-2.5 pl-3">
-                  <GoDotFill color="#00ADEF" size={12} />
-                </div>
-                <div className="flex flex-col">
-                  <a
-                    href="/about"
-                    className=" px-4 py-2 text-white inline-flex items-center gap-1 font-Montserrat font-bold text-[10px]"
-                    onClick={handleDropdownLinkClick}
-                  >
-                    Real Estate
-                  </a>
-                  <a
-                    href="/agriculture"
-                    className="block px-4 py-2 text-white font-Montserrat font-bold text-[10px]"
-                    onClick={handleDropdownLinkClick}
-                  >
-                    Agriculture
-                  </a>
-                  <a
-                    href="/trading"
-                    className="block px-4 py-2 text-white font-Montserrat font-bold text-[10px]"
-                    onClick={handleDropdownLinkClick}
-                  >
-                    Trading
-                  </a>
-                  <a
-                    href="/category2"
-                    className="block px-4 py-2 text-white font-Montserrat font-bold text-[10px]"
-                    onClick={handleDropdownLinkClick}
-                  >
-                    Import
-                  </a>
-                  <a
-                    href="/category2"
-                    className="block px-4 py-2 text-white font-Montserrat font-bold text-[10px]"
-                    onClick={handleDropdownLinkClick}
-                  >
-                    Business
-                  </a>
-                  <a
-                    href="/category2"
-                    className="block px-4 py-2 text-white font-Montserrat font-bold text-[10px]"
-                    onClick={handleDropdownLinkClick}
-                  >
-                    Technology
-                  </a>
-                </div>
-              </div>
-            )}
-          </div>
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ const cardsData = [
     title: "Residential appraiser",
     image: Paul,
     testimonial:
-      "“I highly recommend EliteAndAce Properties to anyone looking to buy or sell a home. They are professional, reliable, and truly care about their clients' needs. They are professional, reliable, and truly care about their clients' needs.”",
+      "“I highly recommend EliteAndAce Properties to anyone looking to design their dream home. They are professional, reliable, and truly care about bringing your vision to life. They are dedicated to providing excellent service and ensuring their clients' design needs are met.”",
     backgroundColor: "bg-[#052087]",
   },
   {
@@ -20,7 +20,7 @@ const cardsData = [
     title: "Commercial Property Manager",
     image: Cards,
     testimonial:
-      "“I highly recommend EliteAndAce Properties to anyone looking to buy or sell a home. They are professional, reliable, and truly care about their clients' needs. They are professional, reliable, and truly care about their clients' needs.”",
+      "“I highly recommend EliteAndAce Properties to anyone looking to design their dream home. They are professional, reliable, and truly care about bringing your vision to life. They are dedicated to providing excellent service and ensuring their clients' design needs are met.”",
 
     backgroundColor: "bg-[#868686]",
   },
@@ -30,7 +30,7 @@ const cardsData = [
     title: "Project Developer",
     image: Samwize,
     testimonial:
-      "“I highly recommend EliteAndAce Properties to anyone looking to buy or sell a home. They are professional, reliable, and truly care about their clients' needs. They are professional, reliable, and truly care about their clients' needs.”",
+      "“I highly recommend EliteAndAce Properties to anyone looking to design their dream home. They are professional, reliable, and truly care about bringing your vision to life. They are dedicated to providing excellent service and ensuring their clients' design needs are met.”",
 
     backgroundColor: "bg-[#052087]",
   },

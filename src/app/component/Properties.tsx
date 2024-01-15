@@ -7,14 +7,14 @@ const Properties = () => {
     <div className="h-full w-full text-black bg-[#F6F6F6]">
       <div className="py-20 lg:px-0 px-10">
         <div className="text-center text-black max-w-md container mx-auto">
-          <h1 className="md:text-3xl text-xl font-bold">Properties For Sale</h1>
+          <h1 className="md:text-3xl text-xl font-bold">Our Designs</h1>
           <p className="md:text-sm text-xs font-normal mt-4">
             Explore our curated list of properties available for sale.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 mt-20 container mx-auto">
-          <div className="md:max-w-[500px]  relative">
+          <div className="md:max-w-[500px]  relative ">
             <Image
               src="/design4.svg"
               alt="List"
@@ -24,14 +24,8 @@ const Properties = () => {
             />
 
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
-              <button className="bg-[#052087]  px-6 py-1 font-bold rounded-md text-white font-Montserrat text-[7px] max-w-[180px] absolute  top-[1%]  -translate-y-1/2 left-1/2 transform -translate-x-1/2">
-                View Listing
-              </button>
-              <h4 className="text-[10px] font-medium">Lekki Phase 1, Lagos</h4>
-              <h5 className="text-[10px] font-bold">N50,000,000</h5>
-              <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
-              <button className="bg-[#878787]  hover:bg-[#adadad] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
+              <button className="bg-[#052087]  px-6 py-3 font-bold rounded-md text-white font-Montserrat text-[9px] max-w-[180px] absolute  top-[1%]  -translate-y-1/2 left-1/2 transform -translate-x-1/2">
+                Terrace
               </button>
             </div>
           </div>
@@ -46,14 +40,8 @@ const Properties = () => {
             />
 
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
-              <button className="bg-[#052087]  px-6 py-1 font-bold rounded-md text-white font-Montserrat text-[7px] max-w-[180px] absolute  top-[1%]  -translate-y-1/2 left-1/2 transform -translate-x-1/2">
-                View Listing
-              </button>
-              <h4 className="text-[10px] font-medium">Lekki Phase 1, Lagos</h4>
-              <h5 className="text-[10px] font-bold">N50,000,000</h5>
-              <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
-              <button className="bg-[#878787]  hover:bg-[#adadad] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
+              <button className="bg-[#052087]  px-6 py-3 font-bold rounded-md text-white font-Montserrat text-[9px] max-w-[180px] absolute  top-[1%]  -translate-y-1/2 left-1/2 transform -translate-x-1/2">
+                Terrace
               </button>
             </div>
           </div>
@@ -68,14 +56,8 @@ const Properties = () => {
             />
 
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
-              <button className="bg-[#052087]  px-6 py-1 font-bold rounded-md text-white font-Montserrat text-[7px] max-w-[180px] absolute  top-[1%]  -translate-y-1/2 left-1/2 transform -translate-x-1/2">
-                View Listing
-              </button>
-              <h4 className="text-[10px] font-medium">Lekki Phase 1, Lagos</h4>
-              <h5 className="text-[10px] font-bold">N50,000,000</h5>
-              <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
-              <button className="bg-[#878787]  hover:bg-[#adadad] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
+              <button className="bg-[#052087]  px-6 py-3 font-bold rounded-md text-white font-Montserrat text-[9px] max-w-[180px] absolute  top-[1%]  -translate-y-1/2 left-1/2 transform -translate-x-1/2">
+                Terrace
               </button>
             </div>
           </div>
