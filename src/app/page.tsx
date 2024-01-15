@@ -1,4 +1,5 @@
 "use client";
+import Head from "next/head";
 
 import AboutUs from "./component/AboutUs";
 import CardSlider from "./component/CardSlider";
@@ -14,6 +15,14 @@ import Sell from "./component/Sell";
 export default function Home() {
   return (
     <main className="">
+      <Head>
+        <title>EliteAndAce Properties</title>
+        <meta
+          name="description"
+          content="To be a Leading Real Estate Agent in Sub Saharan Africa"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Navbar />
       <Hero />
       <AboutUs />
