@@ -16,9 +16,9 @@ const ContactUs = () => {
             <span className="text-[#0018A8]">Request a Call</span>
           </h3>
           <p className="width-55 sm-width-75 whitespace-pre-line xs-width-95 mt-4 text-[#fff] text-normal text-sm ">
-            We have dedicated investment advisors who are available to give a
-            free consultation call, and guide you on how to get started on your
-            investment.
+            We have dedicated EliteAndAce Properties advisors who are available
+            to give a free consultation call, and guide you on how to secure
+            your home.
             <span className="border-b border-[#dee2e6] mt-3 block w-full"></span>
           </p>
         </div>

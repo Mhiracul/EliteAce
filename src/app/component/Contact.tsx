@@ -16,9 +16,9 @@ const Contact = () => {
           </div>
 
           <div className="flex lg:flex-row flex-col items-center gap-4">
-            <div className="inline-flex items-center gap-1 text-3xl">
+            <div className="inline-flex items-center gap-1 md:text-3xl text-xl">
               <FaPhoneAlt color="#052087" />
-              <h1 className=" text-2xl font-medium text-black ">
+              <h1 className=" md:text-2xl text-sm font-medium text-black ">
                 +2348035420101
               </h1>
             </div>

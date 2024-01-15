@@ -128,9 +128,9 @@ const Footer: React.FC = () => {
                   className="text-black text-opacity-[35%] font-semibold md:text-xs text-[8px]"
                   href="/"
                 >
-                  52 Njemanze Street <br />
-                  Owerri, Imo State, Nigeria. <br />
-                  Hopkinstechnicalc@yahoo.com <br />
+                  40, Hopeville <br />
+                  Lagos State, Nigeria. <br />
+                  EliteAndAce Properties@yahoo.com <br />
                   Phone: 08035420101 <br />
                   Whatsapp: 09092259966
                 </Link>
@@ -138,7 +138,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <p className="lg:hidden mt-10 text-center md:text-xs text-[8px] border-t border-black  border-opacity-40 text-black text-opacity-[35%] py-3 font-semibold">
-            Copyright 2023 Hopkins Technical Company. All Rights Reserved.
+            Copyright 2023 EliteAndAce Properties. All Rights Reserved.
           </p>
         </div>
       </div>
