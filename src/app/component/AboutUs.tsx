@@ -1,0 +1,50 @@
+import Image from "next/image";
+import React from "react";
+import { GiBuyCard } from "react-icons/gi";
+
+const AboutUs = () => {
+  return (
+    <div className="h-full">
+      <div className=" bg-white container shadow-sm shadow-[#878787] mx-auto  w-full">
+        {" "}
+        <div className="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-1 gap-10 ">
+          <div className="flex flex-col p-8 items-center">
+            <div className="border rounded-full p-4">
+              <GiBuyCard size={20} color="black" />
+            </div>
+            <p className="text-center text-black mt-3 md:text-sm text-xs">
+              We Buy
+            </p>
+          </div>
+          <div className="flex flex-col p-8 items-center">
+            <div className="border rounded-full p-4">
+              <GiBuyCard size={20} color="black" />
+            </div>
+            <p className="text-center text-black mt-3 md:text-sm text-xs">
+              We Lease
+            </p>
+          </div>
+          {/* Apply background color to the second to the last section */}
+          <div className="flex flex-col items-center p-8 px-10 bg-[#052087]">
+            <div className="border rounded-full p-4">
+              <GiBuyCard size={20} color="white" />
+            </div>
+            <p className="text-center text-white mt-3 md:text-sm text-xs">
+              We Rent
+            </p>
+          </div>
+          <div className="flex flex-col p-8 items-center">
+            <div className="border rounded-full p-4">
+              <GiBuyCard size={20} color="black" />
+            </div>
+            <p className="text-center text-black mt-3 md:text-sm text-xs">
+              We Sell
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AboutUs;
