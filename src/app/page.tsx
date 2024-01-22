@@ -14,7 +14,7 @@ import Sell from "./component/Sell";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="font-urbanist">
       <Head>
         <title>EliteAndAce Properties</title>
         <meta

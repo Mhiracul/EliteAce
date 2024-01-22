@@ -50,10 +50,10 @@ function Navbar() {
                     Home
                   </Link>
                   <Link
-                    href="/"
+                    href="/Services"
                     className="text-black font-Montserrat text-[12px]"
                   >
-                    About Us
+                    Services
                   </Link>
                 </div>
               </div>
@@ -69,10 +69,17 @@ function Navbar() {
             Home
           </Link>
           <Link
-            href="/"
+            href="/Services"
             className="text-black font-medium hover:text-[#052087] font-Montserrat text-[12px]"
           >
-            About Us
+            Services
+          </Link>
+
+          <Link
+            href="/designs"
+            className="text-black font-medium hover:text-[#052087] font-Montserrat text-[12px]"
+          >
+            Designs
           </Link>
         </div>
       </div>

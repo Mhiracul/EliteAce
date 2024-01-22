@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
@@ -24,7 +25,7 @@ const Hero = () => {
           designs to inspire your vision.
         </h2>
         <button className="bg-[#fff] px-10 py-3 rounded-md text-[#052087] font-extrabold font-Montserrat text-lg mt-10">
-          Contact Us
+          <Link href="/Contact">Contact Us</Link>
         </button>
       </div>
     </div>

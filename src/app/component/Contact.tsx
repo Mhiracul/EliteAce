@@ -3,8 +3,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="py-20">
-      <div className="container mx-auto bg-gradient-to-r from-[#F4F1E3] via-[#E7F0F5] to-[#E7F0F5] p-8">
+    <div className="py-20 picture">
+      <div className="container  mx-auto bg-gradient-to-r from-[#F4F1E3] via-[#E7F0F5] to-[#E7F0F5] p-8">
         <div className="flex lg:flex-row md:flex-col flex-col items-center justify-between  w-full">
           <div className="py-20 flex flex-col lg:items-start items-center lg:text-start text-center">
             <span className="bg-[#878787] p-1 text-sm text-white  rounded-md">
@@ -19,7 +19,7 @@ const Contact = () => {
             <div className="inline-flex items-center gap-1 md:text-3xl text-xl">
               <FaPhoneAlt color="#052087" />
               <h1 className="md:text-2xl text-sm font-medium text-black ">
-                +2348035420101
+                +2348061170650
               </h1>
             </div>
 

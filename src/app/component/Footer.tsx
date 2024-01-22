@@ -18,7 +18,6 @@ const Footer: React.FC = () => {
             </h3>
 
             <div className="bg-[#f5f4f4] py-2 px-4 flex items-center justify-between">
-              {/* Input for email */}
               <input
                 type="email"
                 placeholder="Your email"
@@ -30,7 +29,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
             <p className="text-black text-xs hidden lg:block text-opacity-[35%] py-3 font-semibold">
-              Copyright 2023 Hopkins Technical Company. All Rights Reserved.
+              Copyright 2023 EliteAndAce Properties. All Rights Reserved.
             </p>
           </div>
 
@@ -42,24 +41,9 @@ const Footer: React.FC = () => {
 
               <ul className="text-black text-opacity-[35%] font-semibold md:text-xs text-[8px]">
                 <li>
-                  <ScrollLink
-                    to="product"
-                    smooth={true}
-                    duration={500}
-                    className="cursor-pointer"
-                  >
-                    Find Products
-                  </ScrollLink>
-                </li>
-                <li>
-                  <ScrollLink
-                    to="services"
-                    smooth={true}
-                    duration={500}
-                    className="cursor-pointer"
-                  >
+                  <Link href="/Services" className="cursor-pointer">
                     Services
-                  </ScrollLink>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -70,34 +54,14 @@ const Footer: React.FC = () => {
               </h4>
               <ul className="text-black text-opacity-[35%] font-semibold md:text-xs text-[8px]">
                 <li>
-                  <ScrollLink
-                    to="about"
-                    smooth={true}
-                    duration={500}
-                    className="cursor-pointer"
-                  >
-                    About Us
-                  </ScrollLink>
-                </li>
-                <li>
-                  <ScrollLink
-                    to="service"
-                    smooth={true}
-                    duration={500}
-                    className="cursor-pointer"
-                  >
+                  <Link href="/Service" className="cursor-pointer">
                     How It Works
-                  </ScrollLink>
+                  </Link>
                 </li>
                 <li>
-                  <ScrollLink
-                    to="contact"
-                    smooth={true}
-                    duration={500}
-                    className="cursor-pointer"
-                  >
+                  <Link href="/Contact" className="cursor-pointer">
                     Contact Us
-                  </ScrollLink>
+                  </Link>
                 </li>
               </ul>{" "}
             </div>
@@ -108,13 +72,7 @@ const Footer: React.FC = () => {
               </h4>
               <ul className="text-black text-opacity-[35%] font-semibold md:text-xs text-[8px]">
                 <li>
-                  <Link href="/">Privacy Policy</Link>
-                </li>
-                <li>
-                  <Link href="/">Terms and Conidtion</Link>
-                </li>
-                <li>
-                  <Link href="/">Security</Link>
+                  <Link href="/PrivacyAndPolicy">Privacy Policy</Link>
                 </li>
               </ul>{" "}
             </div>
@@ -128,11 +86,10 @@ const Footer: React.FC = () => {
                   className="text-black text-opacity-[35%] font-semibold md:text-xs text-[8px]"
                   href="/"
                 >
-                  40, Hopeville <br />
-                  Lagos State, Nigeria. <br />
-                  EliteAndAce Properties@yahoo.com <br />
-                  Phone: 08035420101 <br />
-                  Whatsapp: 09092259966
+                  First Floor, <br />
+                  Merit house, Maitama. <br />
+                  +2348076478400 <br />
+                  +2348076478400
                 </Link>
               </div>
             </div>
