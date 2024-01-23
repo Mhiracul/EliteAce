@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
               </h4>
               <ul className="text-black text-opacity-[35%] font-semibold md:text-xs text-[8px]">
                 <li>
-                  <Link href="/Service" className="cursor-pointer">
+                  <Link href="/Services" className="cursor-pointer">
                     How It Works
                   </Link>
                 </li>
@@ -89,7 +89,7 @@ const Footer: React.FC = () => {
                   First Floor, <br />
                   Merit house, Maitama. <br />
                   +2348076478400 <br />
-                  +2348076478400
+                  +2348061170650
                 </Link>
               </div>
             </div>

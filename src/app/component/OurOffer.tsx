@@ -1,9 +1,4 @@
-import Image from "next/image";
 import React from "react";
-import Grass from "../../../public/design7.svg";
-import Sesame from "../../../public/design6.svg";
-import Chicken from "../../../public/design2.svg";
-import Palmkernel from "../../../public/design4.svg";
 import { FaPlus } from "react-icons/fa";
 
 const OurOffer = () => {

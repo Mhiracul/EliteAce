@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 
@@ -24,7 +25,7 @@ const Contact = () => {
             </div>
 
             <button className="text-white text-sm font-medium bg-[#052087] hover:bg-[#304288] p-4 rounded-full">
-              Explore Design Options
+              <Link href="/designs"> Explore Design Options </Link>
             </button>
           </div>
         </div>

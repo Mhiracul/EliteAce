@@ -58,12 +58,7 @@ const ContactUs = () => {
               </div>
               <div className="w-full sm:w-1/2">
                 <button className="bg-[#0018A8] text-sm text-white px-5 py-3 rounded-none">
-                  <a
-                    className="text-[#939393]"
-                    href={`mailto:${"contact@pendoraventures.com"}?subject=${"Your Subject"}&body=${"Your Message"}`}
-                  >
-                    Request a Call
-                  </a>
+                  <a className="text-[#939393]">Request a Call</a>
                 </button>
               </div>
             </div>

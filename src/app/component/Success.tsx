@@ -61,7 +61,7 @@ const Success = () => {
               Do not hesitate to say Hello
             </p>
             <button className="border-white bg-transparent border rounded-lg px-6 py-3 mt-4">
-              Let's Talk
+              <Link href="/Contact"> Let's Talk </Link>
             </button>
           </div>
         </div>
