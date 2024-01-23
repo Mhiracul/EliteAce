@@ -55,6 +55,12 @@ function Navbar() {
                   >
                     Services
                   </Link>
+                  <Link
+                    href="/designs"
+                    className="text-black font-Montserrat text-[12px]"
+                  >
+                    Designs
+                  </Link>
                 </div>
               </div>
             </div>
