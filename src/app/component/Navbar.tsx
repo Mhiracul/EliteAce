@@ -13,16 +13,16 @@ function Navbar() {
 
   const handleMenuToggle = () => {
     setMobileMenuOpen(!mobileMenuOpen);
-    setDropdownOpen(false); // Close the dropdown when opening the mobile menu
+    setDropdownOpen(false);
   };
 
   const handleDropdownToggle = () => {
     setDropdownOpen(!dropdownOpen);
-    setMobileMenuOpen(false); // Close the mobile menu when opening the dropdown
+    setMobileMenuOpen(false);
   };
 
   const handleDropdownLinkClick = () => {
-    setDropdownOpen(false); // Close the dropdown when a link is clicked
+    setDropdownOpen(false);
   };
   return (
     <div className="bg-white w-full shadow-md shadow-[#878787]">

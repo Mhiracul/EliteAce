@@ -38,7 +38,9 @@ const Success = () => {
           />
           <div className="flex flex-col items-center">
             {" "}
-            <h1 className="md:text-3xl text-xl font-medium">Miss Shellar</h1>
+            <h1 className="md:text-3xl text-xl font-medium">
+              Dr Chidinma Daniel
+            </h1>
             <p className="md:text-xl text-sm font-bold">CEO</p>
           </div>
         </div>
