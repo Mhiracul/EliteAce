@@ -25,7 +25,7 @@ const Properties = () => {
 
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
               <button className="bg-[#052087]  px-6 py-3 font-bold rounded-md text-white font-Montserrat text-[9px] max-w-[180px] absolute  top-[1%]  -translate-y-1/2 left-1/2 transform -translate-x-1/2">
-                Terrace
+                Block of Flats
               </button>
             </div>
           </div>

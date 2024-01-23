@@ -100,10 +100,10 @@ const PrivacyAndPolicy = () => {
             If you have any questions about this Privacy Policy, please contact
             us at{" "}
             <a
-              href="mailto:privacy@eliteandaceproperties.com"
+              href="mailto:info@eliteandace.com"
               className="text-blue-500 underline"
             >
-              privacy@eliteandaceproperties.com
+              info@eliteandace.com
             </a>
             .
           </p>

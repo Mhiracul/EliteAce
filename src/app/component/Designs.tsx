@@ -19,10 +19,10 @@ const Design = () => {
             <Image src={Fruit1} alt="List" className="w-full rounded-t-md" />
             <div className="bg-[#052087] w-full h-1"></div>
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
-              <h4 className="text-[15px] font-medium text-center">Terrace</h4>
+              <h4 className="text-[15px] font-medium text-center">Duplex</h4>
 
               <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                <Link href="https://wa.me/+2348035491849">Contact Us</Link>
+                <Link href="/Contact">Contact Us</Link>
               </button>
             </div>
           </div>
@@ -31,10 +31,12 @@ const Design = () => {
             <Image src={Fruit2} alt="List" className="w-full rounded-t-md" />
             <div className="bg-[#052087] w-full h-1"></div>
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
-              <h4 className="text-[15px] font-medium text-center">Terrace</h4>
+              <h4 className="text-[15px] font-medium text-center">
+                Block of Flats
+              </h4>
 
               <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                <Link href="https://wa.me/+2348035491849">Contact Us</Link>
+                <Link href="/Contact">Contact Us</Link>
               </button>
             </div>
           </div>
@@ -46,7 +48,7 @@ const Design = () => {
               <h4 className="text-[15px] font-medium text-center">Duplex</h4>
 
               <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                <Link href="https://wa.me/+2348035491849">Contact Us</Link>
+                <Link href="/Contact">Contact Us</Link>
               </button>
             </div>
           </div>
@@ -55,10 +57,10 @@ const Design = () => {
             <Image src={Fruit4} alt="List" className="w-full rounded-t-md" />
             <div className="bg-[#052087] w-full h-1"></div>
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
-              <h4 className="text-[15px] font-medium text-center">Duplex</h4>
+              <h4 className="text-[15px] font-medium text-center">Terrace</h4>
 
               <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                <Link href="https://wa.me/+2348035491849">Contact Us</Link>
+                <Link href="/Contact">Contact Us</Link>
               </button>
             </div>
           </div>
@@ -69,7 +71,7 @@ const Design = () => {
               <h4 className="text-[15px] font-medium text-center">Duplex</h4>
 
               <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                <Link href="https://wa.me/+2348035491849">Contact Us</Link>
+                <Link href="/Contact">Contact Us</Link>
               </button>
             </div>
           </div>
@@ -80,7 +82,7 @@ const Design = () => {
               <h4 className="text-[15px] font-medium text-center">Bungalow</h4>
 
               <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                <Link href="https://wa.me/+2348035491849">Contact Us</Link>
+                <Link href="/Contact">Contact Us</Link>
               </button>
             </div>
           </div>
@@ -92,26 +94,14 @@ const Design = () => {
               <h4 className="text-[15px] font-medium text-center">Bungalow</h4>
 
               <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                <Link href="https://wa.me/+2348035491849">Contact Us</Link>
-              </button>
-            </div>
-          </div>
-
-          <div className="md:max-w-[500px] rounded-md  relative">
-            <Image src={Fruit7} alt="List" className="w-full  rounded-t-md" />
-            <div className="bg-[#052087] w-full h-1"></div>
-            <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
-              <h4 className="text-[15px] font-medium text-center">Bungalow</h4>
-
-              <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                <Link href="https://wa.me/+2348035491849">Contact Us</Link>
+                <Link href="/Contact">Contact Us</Link>
               </button>
             </div>
           </div>
         </div>
         <div className="flex  justify-center w-full mt-4 py-6">
-          <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
-            Book Now
+          <button className="bg-[#052087] hover:bg-[#38498d] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
+            <Link href="/Contact">Book Now</Link>
           </button>
         </div>
       </div>
