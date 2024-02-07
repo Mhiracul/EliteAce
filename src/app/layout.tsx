@@ -6,8 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "EliteAndAce Properties",
-  description:
-    "To be a Leading Architectural Design Agent in Sub Saharan Africa ",
+  description: "Leading Real Estate Developers  Africa ",
 };
 
 export default function RootLayout({

@@ -19,7 +19,7 @@ export default function Home() {
         <title>EliteAndAce Properties</title>
         <meta
           name="description"
-          content="To be a Leading Real Estate Agent in Sub Saharan Africa"
+          content="Leading Real Estate Developers in Sub Saharan Africa"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
