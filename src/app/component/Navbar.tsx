@@ -61,6 +61,12 @@ function Navbar() {
                   >
                     Designs
                   </Link>
+                  <Link
+                    href="/interiorDecoration"
+                    className="text-black font-medium hover:text-[#052087] font-Montserrat text-[12px]"
+                  >
+                    Interior Decoration
+                  </Link>
                 </div>
               </div>
             </div>
@@ -86,6 +92,12 @@ function Navbar() {
             className="text-black font-medium hover:text-[#052087] font-Montserrat text-[12px]"
           >
             Designs
+          </Link>
+          <Link
+            href="/interiorDecoration"
+            className="text-black font-medium hover:text-[#052087] font-Montserrat text-[12px]"
+          >
+            Interior Decoration
           </Link>
         </div>
       </div>

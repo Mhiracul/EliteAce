@@ -17,10 +17,7 @@ export default function Home() {
     <main className="font-urbanist">
       <Head>
         <title>EliteAndAce Properties</title>
-        <meta
-          name="description"
-          content="Leading Real Estate Developers in Sub Saharan Africa"
-        />
+        <meta name="description" content="Real Estates Lead in Africa" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
