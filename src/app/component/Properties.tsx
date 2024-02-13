@@ -9,7 +9,7 @@ const Properties = () => {
         <div className="text-center text-black max-w-md container mx-auto">
           <h1 className="md:text-3xl text-xl font-bold">Our Designs</h1>
           <p className="md:text-sm text-xs font-normal mt-4">
-            Explore our curated list of properties available for sale.
+            Explore some of our exquisite Designs.
           </p>
         </div>
 
