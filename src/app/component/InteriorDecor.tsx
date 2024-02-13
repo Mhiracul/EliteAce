@@ -21,7 +21,11 @@ const InteriorDecor = () => {
       <div className="container mx-auto w-full  py-10 md:px-10 px-10">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 mt-10 mx-auto">
           <div className="md:max-w-[500px] rounded-md  relative">
-            <Image src={Decor1} alt="List" className="w-full rounded-t-md" />
+            <Image
+              src={Decor1}
+              alt="List"
+              className="w-full h-60 rounded-t-md"
+            />
             <div className="bg-[#052087] w-full h-1"></div>
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
               <h4 className="text-[15px] font-medium text-center">Duplex</h4>
@@ -33,7 +37,11 @@ const InteriorDecor = () => {
           </div>
 
           <div className="md:max-w-[500px] rounded-md  relative">
-            <Image src={Decor2} alt="List" className="w-full rounded-t-md" />
+            <Image
+              src={Decor2}
+              alt="List"
+              className="w-full  h-60 rounded-t-md"
+            />
             <div className="bg-[#052087] w-full h-1"></div>
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
               <h4 className="text-[15px] font-medium text-center">
@@ -47,7 +55,11 @@ const InteriorDecor = () => {
           </div>
 
           <div className="md:max-w-[500px] rounded-md  relative">
-            <Image src={Decor3} alt="List" className="w-full rounded-t-md" />
+            <Image
+              src={Decor3}
+              alt="List"
+              className="w-full  h-60 rounded-t-md"
+            />
             <div className="bg-[#052087] w-full h-1"></div>
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
               <h4 className="text-[15px] font-medium text-center">Duplex</h4>
@@ -114,28 +126,14 @@ const InteriorDecor = () => {
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
-              <a>
-                <Image
-                  src={Decor7}
-                  alt="List"
-                  className="w-full rounded-t-md"
-                />
-              </a>
+              <a></a>
             </div>
           </Link>
-          <div className="bg-[#052087] w-full h-1"></div>
-          <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
-            <h4 className="text-[15px] font-medium text-center">Bungalow</h4>
-
-            <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2 font-bold rounded-full text-white font-Montserrat text-[7px] max-w-[180px]">
-              <Link href="/Contact">Contact Us</Link>
-            </button>
-          </div>
         </div>
         {/**test */}
 
         <div className="flex  justify-center w-full mt-4 py-6">
-          <button className="bg-[#052087] hover:bg-[#38498d] px-6 py-2 font-bold rounded-sm te    xt-white font-Montserrat text-[7px] max-w-[180px] ">
+          <button className="bg-[#052087] text-white hover:bg-[#38498d] px-6 py-2 font-bold rounded-sm te    xt-white font-Montserrat text-[7px] max-w-[180px] ">
             <Link href="/Contact">Book Now</Link>
           </button>
         </div>

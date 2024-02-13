@@ -11,7 +11,7 @@ const AboutUs = () => {
             <div className="border rounded-full p-4">
               <GiBuyCard size={20} color="black" />
             </div>
-            <p className="text-center text-black mt-3 md:text-sm text-xs">
+            <p className="text-center text-black mt-3 md:text-sm font-bold text-base">
               We Craft
             </p>
             <p className="text-center text-black mt-1 md:text-xs ">
@@ -22,7 +22,7 @@ const AboutUs = () => {
             <div className="border rounded-full p-4">
               <GiBuyCard size={20} color="black" />
             </div>
-            <p className="text-center text-black mt-3 md:text-sm text-xs">
+            <p className="text-center text-black mt-3 md:text-sm font-bold text-base">
               We Innovate
             </p>
             <p className="text-center text-black mt-1 md:text-xs ">
@@ -33,7 +33,7 @@ const AboutUs = () => {
             <div className="border rounded-full p-4">
               <GiBuyCard size={20} color="white" />
             </div>
-            <p className="text-center text-white mt-3 md:text-sm text-xs">
+            <p className="text-center text-white mt-3 md:text-sm font-bold text-base">
               We Design
             </p>
             <p className="text-center  mt-1 md:text-xs text-[#B2B7BB]">
@@ -44,7 +44,7 @@ const AboutUs = () => {
             <div className="border rounded-full p-4">
               <GiBuyCard size={20} color="black" />
             </div>
-            <p className="text-center text-black mt-3 md:text-sm text-xs">
+            <p className="text-center text-black mt-3 md:text-sm font-bold text-base">
               We Build
             </p>
             <p className="text-center text-black mt-1 md:text-xs ">

@@ -14,7 +14,7 @@ const Sell = () => {
         />
 
         <div className="py-20 flex flex-col lg:items-start items-center lg:text-start text-center">
-          <span className="bg-[#878787] p-1 text-sm text-white  rounded-md">
+          <span className="bg-[#052087] p-1 text-sm text-white  rounded-md">
             Crafting Dreams, Shaping Spaces
           </span>
 
@@ -43,7 +43,7 @@ const Sell = () => {
       <div className="w-full h-full">
         <div className="  lg:flex-row  md:flex-col-reverse flex-col-reverse flex lg:items-start  lg:px-0 px-10 items-center gap-6 justify-betweeen">
           <div className="py-20 pl-0 md:pl-10 flex flex-col lg:items-start items-center lg:text-start text-center ">
-            <span className="bg-[#878787] p-1 text-sm text-white rounded-md">
+            <span className="bg-[#052087] p-1 text-sm text-white rounded-md">
               Beyond Blueprint and Concrete{" "}
             </span>
 
