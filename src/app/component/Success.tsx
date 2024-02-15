@@ -14,12 +14,12 @@ const Success = () => {
   return (
     <div className="bg-[#fff] font-urbanist text-black  h-full w-full">
       <div className="container mx-auto py-20 px-10">
-        <h1 className="text-black text-xl font-semibold underline mb-2 text-end">
+        {/*  <h1 className="text-black text-xl font-semibold underline mb-2 text-end">
           Our Team
-        </h1>
+        </h1> */}
 
         <h1 className="lg:text-8xl md:text-6xl text-xl  font-bold ">
-          "Meet the team behind the designs"
+          Our Team
         </h1>
         <div className="w-full h-0.5 bg-[#F2F2F2] mt-6 mb-5"></div>
         <p className="py-4 md:text-4xl text-xl font-light">

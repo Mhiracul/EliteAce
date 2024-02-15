@@ -12,13 +12,9 @@ import Decor7 from "../../../public/interiorDecor5.jpg";
 import Link from "next/link";
 
 const InteriorDecor = () => {
-  const [isHovered, setIsHovered] = useState(false);
-  const imageUrl =
-    "https://baffihomeng.com/baffi-kitchen-107-kitchen-1650-29-K.jpg"; // Set the image URL here
-
   return (
     <div className="bg-[#F6F6F6] text-black  h-full w-full">
-      <div className="container mx-auto w-full  py-10 md:px-10 px-10">
+      <div className="contain er mx-auto w-full  py-10 md:px-10 px-10">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 mt-10 mx-auto">
           <div className="md:max-w-[500px] rounded-md  relative">
             <Image
@@ -28,7 +24,9 @@ const InteriorDecor = () => {
             />
             <div className="bg-[#052087] w-full h-1"></div>
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
-              <h4 className="text-[15px] font-medium text-center">Duplex</h4>
+              <h4 className="text-[15px] font-medium text-center">
+                Living-room Decor
+              </h4>
 
               <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
                 <Link href="/Contact">Contact Us</Link>
@@ -45,7 +43,7 @@ const InteriorDecor = () => {
             <div className="bg-[#052087] w-full h-1"></div>
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
               <h4 className="text-[15px] font-medium text-center">
-                Block of Flats
+                Bedroom Decor
               </h4>
 
               <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
@@ -62,7 +60,9 @@ const InteriorDecor = () => {
             />
             <div className="bg-[#052087] w-full h-1"></div>
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
-              <h4 className="text-[15px] font-medium text-center">Duplex</h4>
+              <h4 className="text-[15px] font-medium text-center">
+                Lobby Decor
+              </h4>
 
               <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
                 <Link href="/Contact">Contact Us</Link>
@@ -74,7 +74,9 @@ const InteriorDecor = () => {
             <Image src={Decor4} alt="List" className="w-full rounded-t-md" />
             <div className="bg-[#052087] w-full h-1"></div>
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
-              <h4 className="text-[15px] font-medium text-center">Terrace</h4>
+              <h4 className="text-[15px] font-medium text-center">
+                Kitchen Decor
+              </h4>
 
               <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
                 <Link href="/Contact">Contact Us</Link>
@@ -85,7 +87,9 @@ const InteriorDecor = () => {
             <Image src={Decor5} alt="List" className="w-full rounded-t-md" />
             <div className="bg-[#052087] w-full h-1"></div>
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
-              <h4 className="text-[15px] font-medium text-center">Duplex</h4>
+              <h4 className="text-[15px] font-medium text-center">
+                Lobby Decor
+              </h4>
 
               <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
                 <Link href="/Contact">Contact Us</Link>
@@ -96,19 +100,9 @@ const InteriorDecor = () => {
             <Image src={Decor6} alt="List" className="w-full  rounded-t-md" />
             <div className="bg-[#052087] w-full h-1"></div>
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-1 flex flex-col items-center gap-5 relative">
-              <h4 className="text-[15px] font-medium text-center">Bungalow</h4>
-
-              <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                <Link href="/Contact">Contact Us</Link>
-              </button>
-            </div>
-          </div>
-
-          <div className="md:max-w-[500px] rounded-md  relative">
-            <Image src={Decor7} alt="List" className="w-full rounded-t-md" />
-            <div className="bg-[#052087] w-full h-1"></div>
-            <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
-              <h4 className="text-[15px] font-medium text-center">Bungalow</h4>
+              <h4 className="text-[15px] font-medium text-center">
+                Living-room Decor
+              </h4>
 
               <button className="bg-[#052087] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
                 <Link href="/Contact">Contact Us</Link>
@@ -117,19 +111,7 @@ const InteriorDecor = () => {
           </div>
         </div>
         {/**test */}
-        <div className="md:max-w-[500px] rounded-md relative">
-          <Link
-            href={{ pathname: "/full-image-page", query: { image: imageUrl } }}
-          >
-            <div
-              className="relative"
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
-            >
-              <a></a>
-            </div>
-          </Link>
-        </div>
+
         {/**test */}
 
         <div className="flex  justify-center w-full mt-4 py-6">

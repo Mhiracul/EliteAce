@@ -58,6 +58,15 @@ const Sell = () => {
                 blueprint and concrete.
               </p>
             </div>
+            <div className="bg-[#F6F6F6] max-w-md px-2 py-6 flex flex-col gap-3 mt-3 align-middle ">
+              <h1 className="text-black text-xl font-bold">
+                Expect Excellent Delivery
+              </h1>
+              <p className="text-normal text-sm text-[#687693]">
+                Trust us to help build,renovate or decorate your home to your
+                desired taste.
+              </p>
+            </div>
           </div>
 
           <Image
