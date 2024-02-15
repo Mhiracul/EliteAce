@@ -1,11 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import Fruit1 from "../../../public/design2.svg";
-import Fruit2 from "../../../public/design4.svg";
+import Fruit2 from "../../../public/design15.svg";
 import Fruit3 from "../../../public/design7.svg";
 import Fruit4 from "../../../public/design6.svg";
-import Fruit5 from "../../../public/design8.svg";
-import Fruit6 from "../../../public/design9.svg";
+import Fruit5 from "../../../public/design14.svg";
+import Fruit6 from "../../../public/design13.svg";
+import Fruit10 from "../../../public/design16.svg";
 import Fruit7 from "../../../public/design10.svg";
 
 import Link from "next/link";
@@ -65,7 +66,7 @@ const Design = () => {
             </div>
           </div>
           <div className="md:max-w-[500px] rounded-md  relative">
-            <Image src={Fruit1} alt="List" className="w-full rounded-t-md" />
+            <Image src={Fruit10} alt="List" className="w-full rounded-t-md" />
             <div className="bg-[#052087] w-full h-1"></div>
             <div className="bg-white rounded-b-md shadow-lg shadow-[#ccc] py-4 px-4 flex flex-col items-center gap-5 relative">
               <h4 className="text-[15px] font-medium text-center">Duplex</h4>
