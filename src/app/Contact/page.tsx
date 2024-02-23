@@ -3,11 +3,12 @@ import React, { ChangeEvent, FormEvent, useState } from "react";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 
-const page = () => {
+const Page = () => {
   const [formData, setFormData] = useState({
-    name: "",
+    username: "",
     email: "",
     message: "",
+    phone_number: "",
   });
 
   const handleInputChange = (
@@ -23,8 +24,7 @@ const page = () => {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // You can add the backend API endpoint to send data here
-    const apiUrl = "THE_ENDPOINT";
+    const apiUrl = "https://eliteproject.onrender.com/submit_message";
     try {
       const response = await fetch(apiUrl, {
         method: "POST",
@@ -34,7 +34,6 @@ const page = () => {
         body: JSON.stringify(formData),
       });
 
-      // Handle the response as needed
       if (response.ok) {
         console.log("Form submitted successfully");
       } else {
@@ -70,13 +69,14 @@ const page = () => {
               </p>
             </div>
             <div className="lg:max-w-md w-full">
-              {" "}
               <form className="p-6 " onSubmit={handleSubmit}>
                 <div className="mb-4">
                   <input
                     type="text"
-                    id="name"
-                    name="name"
+                    id="username"
+                    name="username"
+                    value={formData.username}
+                    onChange={handleInputChange}
                     className="mt-1 p-2 w-full md:w-96 border-b-[1px] bg-transparent border-black focus:ring-2 outline-none focus:ring-blue-500 focus:border-transparent "
                     placeholder="Your Name"
                   />
@@ -87,8 +87,22 @@ const page = () => {
                     type="email"
                     id="email"
                     name="email"
+                    value={formData.email}
+                    onChange={handleInputChange}
                     className="mt-1 p-2 w-full md:w-96  border-b-[1px] bg-transparent border-black focus:ring-2 outline-none focus:ring-blue-500 focus:border-transparent "
                     placeholder="Your Email"
+                  />
+                </div>
+
+                <div className="mb-4">
+                  <input
+                    type="text"
+                    id="phone_number"
+                    name="phone_number"
+                    value={formData.phone_number}
+                    onChange={handleInputChange}
+                    className="mt-1 p-2 w-full md:w-96  border-b-[1px] bg-transparent border-black focus:ring-2 outline-none focus:ring-blue-500 focus:border-transparent "
+                    placeholder="Your Phone Number"
                   />
                 </div>
 
@@ -96,6 +110,8 @@ const page = () => {
                   <textarea
                     id="message"
                     name="message"
+                    value={formData.message}
+                    onChange={handleInputChange}
                     rows={4}
                     className="mt-1 p-2 w-full md:w-96  border-b-[1px] bg-transparent border-black focus:ring-2 outline-none focus:ring-blue-500 focus:border-transparent "
                     placeholder="Type your message here..."
@@ -121,4 +137,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
